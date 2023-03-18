@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: orangered;
+    
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    transition: all 1s;
+}
+
+.header{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 2px black;
+    font-size: 0.55rem;
+    margin-top: 5px;
+    text-decoration: underline 1px solid;
+
+}
+
+.functionality-buttons{
+    display: flex;
+    
+    
+    gap: 0.4rem;
+    
+}
+
+.button-type {
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+
+    font-size: 0.48rem;
+    cursor: pointer;
+}
+
+
+.main-container{
+    
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    padding: 0 10px 10px 10px;
+    margin: 30px auto 10px auto;
+
+    background-color: rgba(255,255,255,0.2);
+}
+
+#time {
+    font-size: 2.5rem;
+    
+}
+
+.buttons{
+    gap: 1.4rem;
+    margin-bottom: 10px; 
+    position: relative;
+    
+    
+}
+.buttons  button {
+    font-size: 0.7rem;
+    cursor: pointer;
+    
+    
+}
+#start{
+    padding: 4px 20px; 
+    transition: 1s;
+    color: orangered;
+}
+
+
+#skip {
+    position: absolute;
+    right: -45%;
+    top: 20%;
+    background: transparent;
+    border: none;
+    color: white;
+    text-shadow: 0 0 3px black;
+    font-size: 0.8rem;
+
+    display: none;
+
+    
+}
+#skip:hover{
+    transform: scale(1.1);
+}
+#encourage-text {
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+
+/* Book */
+
+#book {
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+#book:hover {
+    transform: rotate(-45deg);
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My stopwatch</title>
+    <link rel="stylesheet" href="pomodoro.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="header">
+    <a href="https://www.youtube.com/watch?v=O4irXQhgMqg" target="_blank"><i class="fa-solid fa-book" id="book"></i></a>
+    
+    <h4 id="title">Pomodoro Focus</h4>
+</div>
+
+<div class="main-container">
+
+    <div class="functionality-buttons">
+        <div><button class="button-type" id= "study">Pomodoro</button></div>
+        <div><button class="button-type" id= "short-break">Short Break</button></div>
+        <div><button class="button-type" id= "long-break">Long Break</button></div>
+    </div>
+
+    <div class="timer-display">
+        <span id="time">25:00</span>
+    </div>
+
+    <div class="buttons">
+        <div class="start-btn-container">
+            <button id="start">Start</button>
+            
+        </div>
+        <div class="skip-btn">
+            <button id="skip"><i class="fa-solid fa-forward-step"></i>
+            </button>
+        </div>
+        
+    </div>
+    
+</div>
+
+    <div id="encourage-text">Time to focus!</div>
+
+
+
+    <script src="pomodoro.js"></script>
+    <script src="https://kit.fontawesome.com/d99f48a841.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
